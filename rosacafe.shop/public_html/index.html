@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rosa Café</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/testimonial.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+   <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-mug-saucer" id="nav_logo"> Rosa Cafe</i>
+            <ul id="nav_list">
+                <li class="nav_item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav_item">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#ava">Avaliações</a>
+                </li>
+            </ul>
+        </div>
+   </header>
+   
+   <main id="content">
+        <section id="home">
+            <div class="shape"> </div>
+                <div id="cta">
+                    <h1 class="title">
+                        Melhor <span>café</span> da Cidade
+                    </h1>
+                    <p class="description">
+                        "Cada xícara conta uma história: grãos especiais, ambiente acolhedor e o aroma perfeito para transformar seu dia. Venha sentir o sabor da Rosa Café em cada gole!"
+                    </p>
+
+                    <div class="cta_buttons">
+                        <a href="tel:+555132240361" id="phone_button">
+                            <button class="btn_default">
+                                <i class="fa-solid fa-phone"></i> (51) 3224-0361
+                            </button>
+                        </a>
+                    </div>
+
+                    <div class="social_media_buttons">
+                        <a href="tel:+5551994142121">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.facebook.com/RCpadaria/?locale=pt_BR">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/explore/locations/1127580600662796/rosa-cafe-padaria-confeitaria/">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div id="banner">
+                    <img src="images/coffee.jpg" id="banner_img">
+                </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossas opções</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <img src="images/pudim.jpg" class="dish-image">
+                    <h3 class="dish-title">Pudim</h3>
+                    <span class="dish-description">
+                        Delicioso pudim, cremoso e irresistível
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$ 40/Kg</h4>
+                    </div>
+                </div>
+                <div class="dish">
+                    <img src="images/torta.jpg" class="dish-image">
+                    <h3 class="dish-title">Torta Fria</h3>
+                    <span class="dish-description">
+                        Torta fria leve e cremosa, perfeita para um sabor refrescante e irresistível
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$ 45/Kg</h4>
+                    </div>
+                </div>
+                <div class="dish">
+                    <img src="images/panini.jpg" class="dish-image">
+                    <h3 class="dish-title">Panini</h3>
+                    <span class="dish-description">
+                        Panini quentinho, recheado com calabresa e crocante por fora.
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$ 10,00</h4>
+                    </div>
+                </div>
+                <div class="dish">
+                    <img src="images/empada.jpg" class="dish-image">
+                    <h3 class="dish-title">Empada Folhada</h3>
+                    <span class="dish-description">
+                        Empada dourada, com massa crocante e recheio saboroso e irresistível
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$ 8,50</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="images/padeira.png" id="testimonial_chef">
+            <div id="testimonials_content">
+                <span id="dep">Depoimentos </span>
+                <h3 class="section-subtitle">
+                    Opiniões de clientes do <a href="https://www.facebook.com/RCpadaria/reviews?locale=pt_BR">Facebook</a>
+                </h3>
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <div class="feedback-content">
+                            <p>
+                                <span class="bold-name">Vanessa Marinho</span>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span> 
+                            </p>
+                            <p>
+                                "O melhor café moído e feito na hora e fora as delícias da confeitaria e salgados feito pra VC"
+                            </p>
+                        </div>
+                    </div><br>
+                    <div class="feedback">
+                        <div class="feedback-content">
+                            <p>
+                                <span class="bold-name">João Antonio Montalvão Chaves</span>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span> 
+                            </p>
+                            <p>
+                                "Melhor pão da cidade. Ambiente limpo e higiênico e DNA Rosa, sempre muito atenciosa."
+                            </p>
+                        </div>
+                    </div><br>
+                    <div class="feedback">
+                        <div class="feedback-content">
+                            <p>
+                                <span class="bold-name">Beatriz Silveira</span>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span> 
+                            </p>
+                            <p>
+                                "Café uma delícia, doces e salgados tudo de bom!! O atendimento e perfeito!! Parabens!!"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div id="footer_itens">
+            <span id="copyright">
+                Av. Getúlio Vargas - 327, Porto Alegre
+            </span>
+            <div class="social_media_buttons">
+                <a href="tel:+5551994142121">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://www.facebook.com/RCpadaria/?locale=pt_BR">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/explore/locations/1127580600662796/rosa-cafe-padaria-confeitaria/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+   <script src="javascript/script.js"></script>
+</body>
+</html>
